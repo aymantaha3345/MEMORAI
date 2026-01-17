@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  memorai:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DATABASE_URL=sqlite:///./memorai.db
+      - DEFAULT_PROVIDER=openai
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=memorai
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
