@@ -8,6 +8,9 @@
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/aymantaha3345/MEMORAI)
 
+> ⚠️ **Note:** This project provides a foundational memory layer,  
+> not a fully autonomous cognitive memory system.
+> 
 ## Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -581,5 +584,6 @@ MIT License - See [LICENSE](LICENSE) file for details.
 *Making AI Conversations Truly Conversational*
 
 [**🚀 Deploy Now**](https://render.com/deploy?repo=https://github.com/aymantaha3345/MEMORAI) | [**📚 Documentation**](http://localhost:8000/docs) | [**🐛 Report Bug**](https://github.com/aymantaha3345/memorai/issues)
+
 
 </div>
