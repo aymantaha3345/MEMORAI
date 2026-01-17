@@ -574,7 +574,7 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 - **Documentation**: [API Reference](http://localhost:8000/docs)
 - **Issues**: [GitHub Issues](https://github.com/aymantaha3345/memorai/issues)
-- **Email**: aymantaha89pp@example.com
+- **Email**: aymantaha89pp@gmail.com
 
 ---
 
@@ -587,3 +587,4 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 
 </div>
+
